@@ -1,4 +1,6 @@
+import { Schema } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
+Schema()
   export const BlogSchema = new mongoose.Schema({
     title: String,
     description: String,
